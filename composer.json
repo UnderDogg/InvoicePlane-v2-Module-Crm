@@ -1,10 +1,7 @@
 {
-    "name": "invoiceplane/module-crm",
+    "name": "invoiceplane/module-crn",
     "description": "",
     "authors": [{}],
-    "require": {
-		"composer/installers": "~1.0"
-    },
     "extra": {
         "laravel": {
             "providers": [
