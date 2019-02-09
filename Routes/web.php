@@ -1,61 +1,61 @@
 <?php
 
-Route::get('admincp/core/addresses', ['as'=> 'admincp.core.addresses.index', 'uses' => 'Core\AddressController@index']);
-Route::post('admincp/core/addresses', ['as'=> 'admincp.core.addresses.store', 'uses' => 'Core\AddressController@store']);
-Route::get('admincp/core/addresses/create', ['as'=> 'admincp.core.addresses.create', 'uses' => 'Core\AddressController@create']);
-Route::put('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.update', 'uses' => 'Core\AddressController@update']);
-Route::patch('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.update', 'uses' => 'Core\AddressController@update']);
-Route::delete('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.destroy', 'uses' => 'Core\AddressController@destroy']);
-Route::get('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.show', 'uses' => 'Core\AddressController@show']);
-Route::get('admincp/core/addresses/{addresses}/edit', ['as'=> 'admincp.core.addresses.edit', 'uses' => 'Core\AddressController@edit']);
+Route::get('staffcp/addresses', ['as'=> 'crm::addresses.index', 'uses' => 'AddressController@index']);
+Route::post('staffcp/addresses', ['as'=> 'crm::addresses.store', 'uses' => 'AddressController@store']);
+Route::get('staffcp/addresses/create', ['as'=> 'crm::addresses.create', 'uses' => 'AddressController@create']);
+Route::put('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.update', 'uses' => 'AddressController@update']);
+Route::patch('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.update', 'uses' => 'AddressController@update']);
+Route::delete('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.destroy', 'uses' => 'AddressController@destroy']);
+Route::get('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.show', 'uses' => 'AddressController@show']);
+Route::get('staffcp/addresses/{addresses}/edit', ['as'=> 'crm::addresses.edit', 'uses' => 'AddressController@edit']);
 
 
-Route::get('admincp/core/customers', ['as'=> 'admincp.core.customers.index', 'uses' => 'Core\CustomerController@index']);
-Route::post('admincp/core/customers', ['as'=> 'admincp.core.customers.store', 'uses' => 'Core\CustomerController@store']);
-Route::get('admincp/core/customers/create', ['as'=> 'admincp.core.customers.create', 'uses' => 'Core\CustomerController@create']);
-Route::put('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.update', 'uses' => 'Core\CustomerController@update']);
-Route::patch('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.update', 'uses' => 'Core\CustomerController@update']);
-Route::delete('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.destroy', 'uses' => 'Core\CustomerController@destroy']);
-Route::get('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.show', 'uses' => 'Core\CustomerController@show']);
-Route::get('admincp/core/customers/{customers}/edit', ['as'=> 'admincp.core.customers.edit', 'uses' => 'Core\CustomerController@edit']);
+Route::get('staffcp/customers', ['as'=> 'crm::customers.index', 'uses' => 'CustomerController@index']);
+Route::post('staffcp/customers', ['as'=> 'crm::customers.store', 'uses' => 'CustomerController@store']);
+Route::get('staffcp/customers/create', ['as'=> 'crm::customers.create', 'uses' => 'CustomerController@create']);
+Route::put('staffcp/customers/{customers}', ['as'=> 'crm::customers.update', 'uses' => 'CustomerController@update']);
+Route::patch('staffcp/customers/{customers}', ['as'=> 'crm::customers.update', 'uses' => 'CustomerController@update']);
+Route::delete('staffcp/customers/{customers}', ['as'=> 'crm::customers.destroy', 'uses' => 'CustomerController@destroy']);
+Route::get('staffcp/customers/{customers}', ['as'=> 'crm::customers.show', 'uses' => 'CustomerController@show']);
+Route::get('staffcp/customers/{customers}/edit', ['as'=> 'crm::customers.edit', 'uses' => 'CustomerController@edit']);
 
 
-Route::get('admincp/core/addresses', ['as'=> 'admincp.core.addresses.index', 'uses' => 'Core\AddressController@index']);
-Route::post('admincp/core/addresses', ['as'=> 'admincp.core.addresses.store', 'uses' => 'Core\AddressController@store']);
-Route::get('admincp/core/addresses/create', ['as'=> 'admincp.core.addresses.create', 'uses' => 'Core\AddressController@create']);
-Route::put('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.update', 'uses' => 'Core\AddressController@update']);
-Route::patch('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.update', 'uses' => 'Core\AddressController@update']);
-Route::delete('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.destroy', 'uses' => 'Core\AddressController@destroy']);
-Route::get('admincp/core/addresses/{addresses}', ['as'=> 'admincp.core.addresses.show', 'uses' => 'Core\AddressController@show']);
-Route::get('admincp/core/addresses/{addresses}/edit', ['as'=> 'admincp.core.addresses.edit', 'uses' => 'Core\AddressController@edit']);
+Route::get('staffcp/addresses', ['as'=> 'crm::addresses.index', 'uses' => 'AddressController@index']);
+Route::post('staffcp/addresses', ['as'=> 'crm::addresses.store', 'uses' => 'AddressController@store']);
+Route::get('staffcp/addresses/create', ['as'=> 'crm::addresses.create', 'uses' => 'AddressController@create']);
+Route::put('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.update', 'uses' => 'AddressController@update']);
+Route::patch('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.update', 'uses' => 'AddressController@update']);
+Route::delete('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.destroy', 'uses' => 'AddressController@destroy']);
+Route::get('staffcp/addresses/{addresses}', ['as'=> 'crm::addresses.show', 'uses' => 'AddressController@show']);
+Route::get('staffcp/addresses/{addresses}/edit', ['as'=> 'crm::addresses.edit', 'uses' => 'AddressController@edit']);
 
 
-Route::get('admincp/core/customers', ['as'=> 'admincp.core.customers.index', 'uses' => 'Core\CustomerController@index']);
-Route::post('admincp/core/customers', ['as'=> 'admincp.core.customers.store', 'uses' => 'Core\CustomerController@store']);
-Route::get('admincp/core/customers/create', ['as'=> 'admincp.core.customers.create', 'uses' => 'Core\CustomerController@create']);
-Route::put('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.update', 'uses' => 'Core\CustomerController@update']);
-Route::patch('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.update', 'uses' => 'Core\CustomerController@update']);
-Route::delete('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.destroy', 'uses' => 'Core\CustomerController@destroy']);
-Route::get('admincp/core/customers/{customers}', ['as'=> 'admincp.core.customers.show', 'uses' => 'Core\CustomerController@show']);
-Route::get('admincp/core/customers/{customers}/edit', ['as'=> 'admincp.core.customers.edit', 'uses' => 'Core\CustomerController@edit']);
+Route::get('staffcp/customers', ['as'=> 'crm::customers.index', 'uses' => 'CustomerController@index']);
+Route::post('staffcp/customers', ['as'=> 'crm::customers.store', 'uses' => 'CustomerController@store']);
+Route::get('staffcp/customers/create', ['as'=> 'crm::customers.create', 'uses' => 'CustomerController@create']);
+Route::put('staffcp/customers/{customers}', ['as'=> 'crm::customers.update', 'uses' => 'CustomerController@update']);
+Route::patch('staffcp/customers/{customers}', ['as'=> 'crm::customers.update', 'uses' => 'CustomerController@update']);
+Route::delete('staffcp/customers/{customers}', ['as'=> 'crm::customers.destroy', 'uses' => 'CustomerController@destroy']);
+Route::get('staffcp/customers/{customers}', ['as'=> 'crm::customers.show', 'uses' => 'CustomerController@show']);
+Route::get('staffcp/customers/{customers}/edit', ['as'=> 'crm::customers.edit', 'uses' => 'CustomerController@edit']);
 
 
 
-Route::get('admincp/core/relationAddresses', ['as'=> 'admincp.core.relationAddresses.index', 'uses' => 'Core\RelationAddressController@index']);
-Route::post('admincp/core/relationAddresses', ['as'=> 'admincp.core.relationAddresses.store', 'uses' => 'Core\RelationAddressController@store']);
-Route::get('admincp/core/relationAddresses/create', ['as'=> 'admincp.core.relationAddresses.create', 'uses' => 'Core\RelationAddressController@create']);
-Route::put('admincp/core/relationAddresses/{relationAddresses}', ['as'=> 'admincp.core.relationAddresses.update', 'uses' => 'Core\RelationAddressController@update']);
-Route::patch('admincp/core/relationAddresses/{relationAddresses}', ['as'=> 'admincp.core.relationAddresses.update', 'uses' => 'Core\RelationAddressController@update']);
-Route::delete('admincp/core/relationAddresses/{relationAddresses}', ['as'=> 'admincp.core.relationAddresses.destroy', 'uses' => 'Core\RelationAddressController@destroy']);
-Route::get('admincp/core/relationAddresses/{relationAddresses}', ['as'=> 'admincp.core.relationAddresses.show', 'uses' => 'Core\RelationAddressController@show']);
-Route::get('admincp/core/relationAddresses/{relationAddresses}/edit', ['as'=> 'admincp.core.relationAddresses.edit', 'uses' => 'Core\RelationAddressController@edit']);
+Route::get('staffcp/relationAddresses', ['as'=> 'crm::relationAddresses.index', 'uses' => 'RelationAddressController@index']);
+Route::post('staffcp/relationAddresses', ['as'=> 'crm::relationAddresses.store', 'uses' => 'RelationAddressController@store']);
+Route::get('staffcp/relationAddresses/create', ['as'=> 'crm::relationAddresses.create', 'uses' => 'RelationAddressController@create']);
+Route::put('staffcp/relationAddresses/{relationAddresses}', ['as'=> 'crm::relationAddresses.update', 'uses' => 'RelationAddressController@update']);
+Route::patch('staffcp/relationAddresses/{relationAddresses}', ['as'=> 'crm::relationAddresses.update', 'uses' => 'RelationAddressController@update']);
+Route::delete('staffcp/relationAddresses/{relationAddresses}', ['as'=> 'crm::relationAddresses.destroy', 'uses' => 'RelationAddressController@destroy']);
+Route::get('staffcp/relationAddresses/{relationAddresses}', ['as'=> 'crm::relationAddresses.show', 'uses' => 'RelationAddressController@show']);
+Route::get('staffcp/relationAddresses/{relationAddresses}/edit', ['as'=> 'crm::relationAddresses.edit', 'uses' => 'RelationAddressController@edit']);
 
 
-Route::get('admincp/core/vendors', ['as'=> 'admincp.core.vendors.index', 'uses' => 'Core\VendorController@index']);
-Route::post('admincp/core/vendors', ['as'=> 'admincp.core.vendors.store', 'uses' => 'Core\VendorController@store']);
-Route::get('admincp/core/vendors/create', ['as'=> 'admincp.core.vendors.create', 'uses' => 'Core\VendorController@create']);
-Route::put('admincp/core/vendors/{vendors}', ['as'=> 'admincp.core.vendors.update', 'uses' => 'Core\VendorController@update']);
-Route::patch('admincp/core/vendors/{vendors}', ['as'=> 'admincp.core.vendors.update', 'uses' => 'Core\VendorController@update']);
-Route::delete('admincp/core/vendors/{vendors}', ['as'=> 'admincp.core.vendors.destroy', 'uses' => 'Core\VendorController@destroy']);
-Route::get('admincp/core/vendors/{vendors}', ['as'=> 'admincp.core.vendors.show', 'uses' => 'Core\VendorController@show']);
-Route::get('admincp/core/vendors/{vendors}/edit', ['as'=> 'admincp.core.vendors.edit', 'uses' => 'Core\VendorController@edit']);
+Route::get('staffcp/vendors', ['as'=> 'crm::vendors.index', 'uses' => 'VendorController@index']);
+Route::post('staffcp/vendors', ['as'=> 'crm::vendors.store', 'uses' => 'VendorController@store']);
+Route::get('staffcp/vendors/create', ['as'=> 'crm::vendors.create', 'uses' => 'VendorController@create']);
+Route::put('staffcp/vendors/{vendors}', ['as'=> 'crm::vendors.update', 'uses' => 'VendorController@update']);
+Route::patch('staffcp/vendors/{vendors}', ['as'=> 'crm::vendors.update', 'uses' => 'VendorController@update']);
+Route::delete('staffcp/vendors/{vendors}', ['as'=> 'crm::vendors.destroy', 'uses' => 'VendorController@destroy']);
+Route::get('staffcp/vendors/{vendors}', ['as'=> 'crm::vendors.show', 'uses' => 'VendorController@show']);
+Route::get('staffcp/vendors/{vendors}/edit', ['as'=> 'crm::vendors.edit', 'uses' => 'VendorController@edit']);
