@@ -8,15 +8,16 @@
                 "Modules\\Crm\\Providers\\CrmServiceProvider"
             ],
             "aliases": {
-                
+
+            },
+            "installer-paths": {
+                "Modules/{$name}": ["invoiceplane/module-crm"]
+            }
         },
-		"installer-paths": {
-		  "Modules/{$name}": ["invoiceplane/module-crm"]
-		}
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\Crm\\": ""
+        "autoload": {
+            "psr-4": {
+                "Modules\\Crm\\": ""
+            }
         }
     }
 }
