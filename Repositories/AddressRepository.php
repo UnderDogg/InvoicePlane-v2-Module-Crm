@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Core\Repositories;
+namespace Modules\Crm\Repositories;
 
-use Modules\Core\Models\Core\Address;
+use Modules\Crm\Models\Address;
 use InfyOm\Generator\Common\BaseRepository;
 
 /**
  * Class AddressRepository
- * @package Modules\Core\Repositories\Core
+ * @package Modules\Crm\Repositories
  * @version February 2, 2019, 7:07 pm UTC
  *
  * @method Address findWithoutFail($id, $columns = ['*'])

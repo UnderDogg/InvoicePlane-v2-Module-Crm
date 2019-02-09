@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Core\Http\Requests;
+namespace Modules\Crm\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Modules\Core\Models\Core\Address;
+use Modules\Crm\Models\Address;
 
 class UpdateAddressRequest extends FormRequest
 {

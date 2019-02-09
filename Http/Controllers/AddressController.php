@@ -1,11 +1,10 @@
 <?php
 
-namespace Modules\Core\Http\Controllers
-use Modules\Core\DataTables\Core\AddressDataTable;
-use Modules\Core\Http\Requests\Core;
-use Modules\Core\Http\Requests\Core\CreateAddressRequest;
-use Modules\Core\Http\Requests\Core\UpdateAddressRequest;
-use Modules\Core\Repositories\Core\AddressRepository;
+namespace Modules\Crm\Http\Controllers;
+use Modules\Crm\DataTables\Core\AddressDataTable;
+use Modules\Crm\Http\Requests\Core\CreateAddressRequest;
+use Modules\Crm\Http\Requests\Core\UpdateAddressRequest;
+use Modules\Crm\Repositories\AddressRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;

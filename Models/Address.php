@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Core\Models;
+namespace Modules\Crm\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class Address
- * @package Modules\Core\Models\Core
+ * @package Modules\Crm\Models\Core
  * @version February 2, 2019, 7:07 pm UTC
  *
  * @property \Illuminate\Database\Eloquent\Collection permissionRole
@@ -69,6 +69,6 @@ class Address extends Model
      **/
     public function relationsHasAddresses()
     {
-        return $this->hasMany(\Modules\Core\Models\Core\RelationsHasAddress::class);
+        return $this->hasMany(\Modules\Crm\Models\RelationsHasAddress::class);
     }
 }

@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Core\Http\Controllers;
+namespace Modules\Crm\Http\Controllers;
 
-use Modules\Core\DataTables\Core\CustomerDataTable;
-use Modules\Core\Http\Requests\Core;
-use Modules\Core\Http\Requests\Core\CreateCustomerRequest;
-use Modules\Core\Http\Requests\Core\UpdateCustomerRequest;
-use Modules\Core\Repositories\Core\CustomerRepository;
+use Modules\Crm\DataTables\Core\CustomerDataTable;
+
+use Modules\Crm\Http\Requests\Core\CreateCustomerRequest;
+use Modules\Crm\Http\Requests\Core\UpdateCustomerRequest;
+use Modules\Crm\Repositories\CustomerRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;

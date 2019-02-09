@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Core\Http\Requests;
+namespace Modules\Crm\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Modules\Core\Models\Core\Vendor;
+use Modules\Crm\Models\Vendor;
 
 class UpdateVendorRequest extends FormRequest
 {

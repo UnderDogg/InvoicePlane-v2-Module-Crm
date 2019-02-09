@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\Core\Http\Requests;
+namespace Modules\Crm\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Modules\Core\Models\Core\RelationAddress;
+use Modules\Crm\Models\RelationAddress;
 
 class CreateRelationAddressRequest extends FormRequest
 {

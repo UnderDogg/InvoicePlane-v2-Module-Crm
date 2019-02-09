@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Core\Http\Controllers;
+namespace Modules\Crm\Http\Controllers;
 
-use Modules\Core\DataTables\Core\VendorDataTable;
-use Modules\Core\Http\Requests\Core;
-use Modules\Core\Http\Requests\Core\CreateVendorRequest;
-use Modules\Core\Http\Requests\Core\UpdateVendorRequest;
-use Modules\Core\Repositories\Core\VendorRepository;
+use Modules\Crm\DataTables\Core\VendorDataTable;
+
+use Modules\Crm\Http\Requests\Core\CreateVendorRequest;
+use Modules\Crm\Http\Requests\Core\UpdateVendorRequest;
+use Modules\Crm\Repositories\VendorRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;

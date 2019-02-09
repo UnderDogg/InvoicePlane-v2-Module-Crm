@@ -1,17 +1,17 @@
 <?php
 
-namespace Modules\Core\Models;
+namespace Modules\Crm\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class RelationAddress
- * @package Modules\Core\Models\Core
+ * @package Modules\Crm\Models\Core
  * @version February 2, 2019, 7:08 pm UTC
  *
- * @property \Modules\Core\Models\Core\Address address
- * @property \Modules\Core\Models\Core\Relation relation
+ * @property \Modules\Crm\Models\Address address
+ * @property \Modules\Crm\Models\Relation relation
  * @property \Illuminate\Database\Eloquent\Collection permissionRole
  * @property \Illuminate\Database\Eloquent\Collection ticketsThreadsTasks
  * @property \Illuminate\Database\Eloquent\Collection ticketsThreads
@@ -67,7 +67,7 @@ class RelationAddress extends Model
      **/
     public function address()
     {
-        return $this->belongsTo(\Modules\Core\Models\Core\Address::class);
+        return $this->belongsTo(\Modules\Crm\Models\Address::class);
     }
 
     /**
@@ -75,6 +75,6 @@ class RelationAddress extends Model
      **/
     public function relation()
     {
-        return $this->belongsTo(\Modules\Core\Models\Core\Relation::class);
+        return $this->belongsTo(\Modules\Crm\Models\Relation::class);
     }
 }

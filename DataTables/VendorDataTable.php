@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\Core\DataTables;
+namespace Modules\Crm\DataTables;
 
-use Modules\Core\Models\Core\Vendor;
+use Modules\Crm\Models\Vendor;
 use Yajra\DataTables\Services\DataTable;
 use Yajra\DataTables\EloquentDataTable;
 

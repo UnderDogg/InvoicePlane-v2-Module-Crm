@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Core\Models;
+namespace Modules\Crm\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class Vendor
- * @package Modules\Core\Models\Core
+ * @package Modules\Crm\Models\Core
  * @version February 2, 2019, 7:09 pm UTC
  *
  * @property \Illuminate\Database\Eloquent\Collection Expense
@@ -70,6 +70,6 @@ class Vendor extends Model
      **/
     public function expenses()
     {
-        return $this->hasMany(\Modules\Core\Models\Core\Expense::class);
+        return $this->hasMany(\Modules\Crm\Models\Expense::class);
     }
 }

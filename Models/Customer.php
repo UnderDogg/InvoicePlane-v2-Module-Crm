@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Core\Models;
+namespace Modules\Crm\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class Customer
- * @package Modules\Core\Models\Core
+ * @package Modules\Crm\Models\Core
  * @version February 2, 2019, 7:08 pm UTC
  *
  * @property \Illuminate\Database\Eloquent\Collection Invoice
@@ -70,7 +70,7 @@ class Customer extends Model
      **/
     public function invoices()
     {
-        return $this->hasMany(\Modules\Core\Models\Core\Invoice::class);
+        return $this->hasMany(\Modules\Crm\Models\Invoice::class);
     }
 
     /**
@@ -78,6 +78,6 @@ class Customer extends Model
      **/
     public function ticketsThreads()
     {
-        return $this->hasMany(\Modules\Core\Models\Core\TicketsThread::class);
+        return $this->hasMany(\Modules\Crm\Models\TicketsThread::class);
     }
 }

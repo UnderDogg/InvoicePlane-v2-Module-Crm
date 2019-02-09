@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Core\Repositories;
+namespace Modules\Crm\Repositories;
 
-use Modules\Core\Models\Core\Vendor;
+use Modules\Crm\Models\Vendor;
 use InfyOm\Generator\Common\BaseRepository;
 
 /**
  * Class VendorRepository
- * @package Modules\Core\Repositories\Core
+ * @package Modules\Crm\Repositories
  * @version February 2, 2019, 7:09 pm UTC
  *
  * @method Vendor findWithoutFail($id, $columns = ['*'])

@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\Core\DataTables;
+namespace Modules\Crm\DataTables;
 
-use Modules\Core\Models\Core\Customer;
+use Modules\Crm\Models\Customer;
 use Yajra\DataTables\Services\DataTable;
 use Yajra\DataTables\EloquentDataTable;
 

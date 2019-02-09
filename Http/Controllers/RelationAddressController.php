@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Core\Http\Controllers;
+namespace Modules\Crm\Http\Controllers;
 
-use Modules\Core\DataTables\Core\RelationAddressDataTable;
-use Modules\Core\Http\Requests\Core;
-use Modules\Core\Http\Requests\Core\CreateRelationAddressRequest;
-use Modules\Core\Http\Requests\Core\UpdateRelationAddressRequest;
-use Modules\Core\Repositories\Core\RelationAddressRepository;
+use Modules\Crm\DataTables\Core\RelationAddressDataTable;
+
+use Modules\Crm\Http\Requests\Core\CreateRelationAddressRequest;
+use Modules\Crm\Http\Requests\Core\UpdateRelationAddressRequest;
+use Modules\Crm\Repositories\RelationAddressRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;
