@@ -2,23 +2,24 @@
     "name": "invoiceplane/module-crm",
     "description": "",
     "authors": [{}],
+    "require": {
+		"composer/installers": "~1.0"
+    },
     "extra": {
         "laravel": {
-            "aliases": {
-
-            },
-
             "providers": [
-                "Modules\\Crm\\Providers\\CrmServiceProvider"
+                "Modules\\Crm\\Providers\\CoreServiceProvider"
             ],
-            "installer-paths": {
-                "Modules/{$name}": ["invoiceplane/module-crm"]
+            "aliases": {
             }
         },
-        "autoload": {
-            "psr-4": {
-                "Modules\\Crm\\": ""
-            }
+		"installer-paths": {
+		  "Modules/{$name}": ["invoiceplane/module-crm"]
+		}
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Crm\\": ""
         }
     }
 }
