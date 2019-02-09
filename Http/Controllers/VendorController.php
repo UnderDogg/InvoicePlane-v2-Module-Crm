@@ -2,10 +2,10 @@
 
 namespace Modules\Crm\Http\Controllers;
 
-use Modules\Crm\DataTables\Core\VendorDataTable;
+use Modules\Crm\DataTables\VendorDataTable;
 
-use Modules\Crm\Http\Requests\Core\CreateVendorRequest;
-use Modules\Crm\Http\Requests\Core\UpdateVendorRequest;
+use Modules\Crm\Http\Requests\CreateVendorRequest;
+use Modules\Crm\Http\Requests\UpdateVendorRequest;
 use Modules\Crm\Repositories\VendorRepository;
 use Flash;
 use Modules\Core\Http\Controllers\Controller as CoreController;

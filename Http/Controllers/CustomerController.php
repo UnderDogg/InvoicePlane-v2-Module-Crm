@@ -2,10 +2,10 @@
 
 namespace Modules\Crm\Http\Controllers;
 
-use Modules\Crm\DataTables\Core\CustomerDataTable;
+use Modules\Crm\DataTables\CustomerDataTable;
 
-use Modules\Crm\Http\Requests\Core\CreateCustomerRequest;
-use Modules\Crm\Http\Requests\Core\UpdateCustomerRequest;
+use Modules\Crm\Http\Requests\CreateCustomerRequest;
+use Modules\Crm\Http\Requests\UpdateCustomerRequest;
 use Modules\Crm\Repositories\CustomerRepository;
 use Flash;
 use Modules\Core\Http\Controllers\Controller as CoreController;

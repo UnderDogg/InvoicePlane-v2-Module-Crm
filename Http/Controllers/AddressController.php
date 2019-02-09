@@ -1,9 +1,9 @@
 <?php
 
 namespace Modules\Crm\Http\Controllers;
-use Modules\Crm\DataTables\Core\AddressDataTable;
-use Modules\Crm\Http\Requests\Core\CreateAddressRequest;
-use Modules\Crm\Http\Requests\Core\UpdateAddressRequest;
+use Modules\Crm\DataTables\AddressDataTable;
+use Modules\Crm\Http\Requests\CreateAddressRequest;
+use Modules\Crm\Http\Requests\UpdateAddressRequest;
 use Modules\Crm\Repositories\AddressRepository;
 use Flash;
 use Modules\Core\Http\Controllers\Controller as CoreController;

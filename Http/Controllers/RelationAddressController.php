@@ -2,10 +2,10 @@
 
 namespace Modules\Crm\Http\Controllers;
 
-use Modules\Crm\DataTables\Core\RelationAddressDataTable;
+use Modules\Crm\DataTables\RelationAddressDataTable;
 
-use Modules\Crm\Http\Requests\Core\CreateRelationAddressRequest;
-use Modules\Crm\Http\Requests\Core\UpdateRelationAddressRequest;
+use Modules\Crm\Http\Requests\CreateRelationAddressRequest;
+use Modules\Crm\Http\Requests\UpdateRelationAddressRequest;
 use Modules\Crm\Repositories\RelationAddressRepository;
 use Flash;
 use Modules\Core\Http\Controllers\Controller as CoreController;
