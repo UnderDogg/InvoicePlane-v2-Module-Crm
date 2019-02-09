@@ -8,10 +8,10 @@ use Modules\Crm\Http\Requests\Core\CreateRelationAddressRequest;
 use Modules\Crm\Http\Requests\Core\UpdateRelationAddressRequest;
 use Modules\Crm\Repositories\RelationAddressRepository;
 use Flash;
-use App\Http\Controllers\AppBaseController;
+use Modules\Core\Http\Controllers\Controller as CoreController;
 use Response;
 
-class RelationAddressController extends AppBaseController
+class RelationAddressController extends CoreController
 {
     /** @var  RelationAddressRepository */
     private $relationAddressRepository;

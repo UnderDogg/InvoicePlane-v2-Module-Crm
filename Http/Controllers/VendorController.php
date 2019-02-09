@@ -8,10 +8,10 @@ use Modules\Crm\Http\Requests\Core\CreateVendorRequest;
 use Modules\Crm\Http\Requests\Core\UpdateVendorRequest;
 use Modules\Crm\Repositories\VendorRepository;
 use Flash;
-use App\Http\Controllers\AppBaseController;
+use Modules\Core\Http\Controllers\Controller as CoreController;
 use Response;
 
-class VendorController extends AppBaseController
+class VendorController extends CoreController
 {
     /** @var  VendorRepository */
     private $vendorRepository;

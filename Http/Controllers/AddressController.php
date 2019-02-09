@@ -6,10 +6,13 @@ use Modules\Crm\Http\Requests\Core\CreateAddressRequest;
 use Modules\Crm\Http\Requests\Core\UpdateAddressRequest;
 use Modules\Crm\Repositories\AddressRepository;
 use Flash;
-use App\Http\Controllers\AppBaseController;
+use Modules\Core\Http\Controllers\Controller as CoreController;
+
+
+
 use Response;
 
-class AddressController extends AppBaseController
+class AddressController extends CoreController
 {
     /** @var  AddressRepository */
     private $addressRepository;

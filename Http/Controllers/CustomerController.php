@@ -8,10 +8,10 @@ use Modules\Crm\Http\Requests\Core\CreateCustomerRequest;
 use Modules\Crm\Http\Requests\Core\UpdateCustomerRequest;
 use Modules\Crm\Repositories\CustomerRepository;
 use Flash;
-use App\Http\Controllers\AppBaseController;
+use Modules\Core\Http\Controllers\Controller as CoreController;
 use Response;
 
-class CustomerController extends AppBaseController
+class CustomerController extends CoreController
 {
     /** @var  CustomerRepository */
     private $customerRepository;
