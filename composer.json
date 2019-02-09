@@ -7,6 +7,10 @@
             "aliases": {
 
             },
+
+            "providers": [
+                "Modules\\Crm\\Providers\\CrmServiceProvider"
+            ],
             "installer-paths": {
                 "Modules/{$name}": ["invoiceplane/module-crm"]
             }
