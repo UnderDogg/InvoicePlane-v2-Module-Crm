@@ -1,12 +1,10 @@
 {
-    "name": "nwidart/crm",
+    "name": "invoiceplane/module-crm",
     "description": "",
-    "authors": [
-        {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
-        }
-    ],
+    "authors": [{}],
+    "require": {
+		"composer/installers": "~1.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -14,8 +12,10 @@
             ],
             "aliases": {
                 
-            }
-        }
+        },
+		"installer-paths": {
+		  "Modules/{$name}": ["invoiceplane/module-crm"]
+		}
     },
     "autoload": {
         "psr-4": {
