@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Core\Http\Controllers\Core;
+namespace Modules\Core\Http\Controllers;
 
 use Modules\Core\DataTables\Core\CustomerDataTable;
 use Modules\Core\Http\Requests\Core;

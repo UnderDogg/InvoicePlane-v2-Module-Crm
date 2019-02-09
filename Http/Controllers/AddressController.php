@@ -1,7 +1,6 @@
 <?php
 
-namespace Modules\Core\Http\Controllers\Core;
-
+namespace Modules\Core\Http\Controllers
 use Modules\Core\DataTables\Core\AddressDataTable;
 use Modules\Core\Http\Requests\Core;
 use Modules\Core\Http\Requests\Core\CreateAddressRequest;

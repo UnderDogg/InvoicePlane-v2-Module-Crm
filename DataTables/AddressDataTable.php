@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Core\DataTables\Core;
+namespace Modules\Core\DataTables;
 
 use Modules\Core\Models\Core\Address;
 use Yajra\DataTables\Services\DataTable;

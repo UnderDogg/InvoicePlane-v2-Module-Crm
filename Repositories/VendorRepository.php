@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Core\Repositories\Core;
+namespace Modules\Core\Repositories;
 
 use Modules\Core\Models\Core\Vendor;
 use InfyOm\Generator\Common\BaseRepository;
