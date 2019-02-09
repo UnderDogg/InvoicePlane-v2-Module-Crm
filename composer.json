@@ -8,7 +8,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Modules\\Crm\\Providers\\CoreServiceProvider"
+                "Modules\\Crm\\Providers\\CrmServiceProvider"
             ],
             "aliases": {
             }
