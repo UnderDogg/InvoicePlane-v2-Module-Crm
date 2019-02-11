@@ -29,7 +29,7 @@ class CustomerController extends CoreController
      */
     public function index(CustomerDataTable $customerDataTable)
     {
-        return $customerDataTable->render('admincp.core.customers.index');
+        return $customerDataTable->render('crm::customers.list');
     }
 
     /**
